@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GabyStoreKids</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-content">
+
+      <div class="logo">
+        <img src="imagens/ChatGPT Image 14 de dez. de 2025, 14_10_33.png" alt="Gabi Story Kids">
+      </div>
+
+      <!-- MENU ÚNICO -->
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="#" class="menu-link">Roupas</a></li>
+          <li><a href="#" class="menu-link">Brinquedos</a></li>
+          <li><a href="#" class="menu-link">Histórias & Livros</a></li>
+          <li><a href="#" class="menu-link">Sale</a></li>
+        </ul>
+      </nav>
+
+      <!-- ÍCONES -->
+      <div class="nav-icons">
+        <a href="#"><img src="imagens/user.png" alt="Buscar"></a>
+        <a href="#"><img src="imagens/instagram.png" alt="Conta"></a>
+        <div class="cart-icon">
+          <img src="imagens/shopping-cart.png" alt="Carrinho">
+          <span class="cart-count">0</span>
+        </div>
+      </div>
+
+      <!-- BOTÃO HAMBURGER -->
+      <button class="hamburger" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+    <!-- OVERLAY (fora do container) -->
+    <div class="menu-overlay"></div>
+  </header>
+
+  <!-- HERO / BANNER PRINCIPAL -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Explore Novas Aventuras!</h1>
+        <p>Onde a imaginação ganha vida!</p>
+        <button class="btn-primary">Nossos Favoritos</button>
+      </div>
+
+      <div class="hero-illustration">
+        <!-- Ilustração das crianças -->
+        <img src="imagens/ChatGPT Image 12 de dez. de 2025, 22_01_55.png" alt="Crianças brincando">
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIAS PRINCIPAIS -->
+  <section class="categories">
+    <div class="container categories-grid">
+
+      <article class="category-card roupas">
+        <img src="imagens/roupa_criança.png" alt="Roupas">
+        <h3>Roupas Bebê & Infantil</h3>
+      </article>
+
+      <article class="category-card brinquedos">
+        <img src="imagens/duas_imagens.png" alt="Brinquedos">
+        <h3>Brinquedos Educativos</h3>
+      </article>
+
+      <article class="category-card livros">
+        <img src="imagens/livros.png" alt="Livros">
+        <h3>Livros & Contos</h3>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- FAVORITOS -->
+  <section class="favorites" id="favoritos">
+    <div class="container">
+      <h2>Nossos Favoritos</h2>
+
+      <div class="favorites-list">
+        <a href="#" class="favorite-item">
+          <img src="imagens/roupa-1.png" alt="Produto 1">
+        </a>
+
+        <a href="#" class="favorite-item">
+          <img src="imagens/roupa-2.png" alt="Produto 2">
+        </a>
+
+        <a href="#" class="favorite-item">
+          <img src="imagens/roupa-3.png" alt="Produto 3">
+        </a>
+
+        <a href="#" class="favorite-item">
+          <img src="imagens/roupa-4.png" alt="Produto 4">
+        </a>
+
+        <a href="#" class="favorites-next" aria-label="Ver tudo">
+          ❯
+        </a>
+      </div>
+
+
+      </a>
+    </div>
+  </section>
+
+  <!-- SEÇÃO HISTÓRIAS -->
+  <section class="stories-banner">
+    <div class="stories-content">
+      <h2>Descubra Histórias<br>que Inspiram!</h2>
+      <a href="#" class="stories-btn">Ler agora</a>
+    </div>
+
+    <!-- imagens decorativas -->
+    <img src="imagens/iamgem-fundo1.png" class="story-img left" alt="">
+    <img src="imagens/imagem-fundo2.png" class="story-img right" alt="">
+  </section>
+
+
+
+
+  <!-- FOOTER -->
+  <!-- BENEFÍCIOS -->
+  <section class="footer-services">
+    <div class="container services-list">
+      <div class="service-item">🚚 Frete Seguro</div>
+      <div class="service-item">📂 Categorias</div>
+      <div class="service-item">🎓 Educativo</div>
+      <div class="service-item">🎈 Clube Criança</div>
+      <div class="service-item">🔒 Loja Segura</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+        <img src="imagens/logo.png" alt="Gabi Story Kids">
+        <p>Tudo para acompanhar o crescimento do seu filho 💛</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Institucional</h4>
+        <a href="#">Sobre nós</a>
+        <a href="#">Categorias</a>
+        <a href="#">Contato</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contato</h4>
+        <p>📧 contato@gabistorykids.com</p>
+        <p>📍 Brasil</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Gabi Story Kids • Todos os direitos reservados
+    </div>
+  </footer>
+
+  <div class="product-modal" id="productModal">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Fechar">✕</button>
+
+      <div class="modal-image">
+        <img id="modalImage" src="imagens/ChatGPT Image 12 de dez. de 2025, 22_01_55.png" alt="Produto">
+      </div>
+
+      <div class="modal-info">
+        <h3 id="modalTitle">Produto</h3>
+        <p id="modalPrice">R$ 0,00</p>
+        <a href="#" class="modal-btn">Ver produto</a>
+        <span class="modal-badge">Novo</span>
+        <button class="add-to-cart">Adicionar ao carrinho</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="cart-panel" id="cartPanel">
+    <div class="cart-header">
+      <h3>Meu Carrinho</h3>
+      <button class="cart-close">✕</button>
+    </div>
+
+    <div class="cart-items"></div>
+
+    <div class="cart-footer">
+      <strong>Total: <span class="cart-total">R$ 0,00</span></strong>
+    </div>
+  </div>
+
+  <div class="cart-overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
